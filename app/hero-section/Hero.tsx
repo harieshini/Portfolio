@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -99,8 +99,8 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="harsh"
+              alt="Profile Image "
+              data-blobity-tooltip="Harsh"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
