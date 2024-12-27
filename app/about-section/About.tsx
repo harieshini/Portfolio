@@ -25,30 +25,23 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference."
+                "   My passion lies in crafting software solutions that drive meaningful impact and innovation."
               }
             />
+            
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                "   I'm a Full Stack Developer , with avid interest in Data Analytics and working with Databases. Apart from coding, I spend my time in binge-reading comics,manga and expanding my music library with Indian rock and K-pop."
               }
-              className={"hidden"}
+              
             />
+            
             <AnimatedBody
               text={
-                "Beyond my work as a frontend developer, I'm an active leader in tech communities on campus. As a member of the Google Developer Student Clubs and Microsoft Learn Student Ambassadors, I've led workshops and mentored other students."
+                "I'm currently working on some engaging projects and looking for opportunities, Feel free to reach out and connect!"
               }
             />
-            <AnimatedBody
-              text={
-                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Manchester United, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap."
-              }
-            />
-            <AnimatedBody
-              text={
-                "I'm currently working on some exciting projects that I can't wait to share with you. But I’m always open to new opportunities and collaborations."
-              }
-            />
+            
           </div>
 
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
