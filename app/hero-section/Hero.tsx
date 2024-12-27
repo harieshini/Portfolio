@@ -18,16 +18,16 @@ const Hero = () => {
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
-          <Link
-            href="https://cal.com/victorwilliams/30min"
-            target="_blank"
-            aria-label="BOOK A CALL"
-          >
+        <Link
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
+              target="_blank"
+              aria-label="mail me."
+>
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              BOOK A CALL
+              MAIL ME
             </motion.button>
           </Link>
         </div>
@@ -57,30 +57,8 @@ const Hero = () => {
               LN
             </motion.p>
           </Link>
-          <Link
-            href="https://www.instagram.com/_.harish_ini/"
-            target="_blank"
-            aria-label="View Instagram Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              IG
-            </motion.p>
-          </Link>
-          <Link
-            href="https://contra.com/victorwilliams"
-            target="_blank"
-            aria-label="View Contra Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              CO
-            </motion.p>
-          </Link>
+          
+          
         </div>
       </div>
 
