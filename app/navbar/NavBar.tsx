@@ -18,9 +18,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-[350px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[290px] md:p-2 lg:w-[450px]">
       <Link
-        href="https://drive.google.com/file/d/1Mmwl-FRGPm5QVe3AjtukJr_Jpc366Ear/view"
+        href="https://www.canva.com/design/DAGPhPxtVhg/8qzCjNSaWdeLK84mwobVhQ/edit?utm_content=DAGPhPxtVhg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         target="_blank"
         className="flex"
         aria-label="Open my resume"
@@ -40,7 +40,17 @@ const NavBar = () => {
         aria-label="Scroll to Home Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Home
+          HOME
+        </h4>
+      </Link>
+      <Link
+        href="#about"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to About Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+            ABOUT
         </h4>
       </Link>
       <Link
@@ -50,18 +60,7 @@ const NavBar = () => {
         aria-label="Scroll to Work Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Work
-        </h4>
-      </Link>
-
-      <Link
-        href="#about"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to About Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          About
+          PROJECTS
         </h4>
       </Link>
 
@@ -72,7 +71,7 @@ const NavBar = () => {
         aria-label="Scroll to Contact Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Contact
+          CONTACT
         </h4>
       </Link>
     </nav>
