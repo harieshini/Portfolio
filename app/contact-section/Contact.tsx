@@ -52,6 +52,7 @@ const Contact = () => {
                 />
               </Link>
               
+              
             </div>
           </div>
 
@@ -84,7 +85,8 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            </div>
+            
+          </div>
         </div>
       </div>
     </motion.section>
