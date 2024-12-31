@@ -56,10 +56,10 @@ export const devProjects = [
   },
   {
     id: 4,
-    name: "Flixify",
+    name: "SERVYOU",
     description:
-      "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
-    technologies: ["Next.js", "Typescript", "Prisma"],
+      "This website provides a platform for employees in an organizaton to cater their food services withing their cafeteria to avoid congesion at peak hours.",
+    technologies: ["PHP", "JAVASCRIPT", "HTML", "CSS"],
     github: "https://github.com/victorcodess/flixify",
     
     image: require(".//../../public/projects/flixify.png"),
