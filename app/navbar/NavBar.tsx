@@ -18,7 +18,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-[350px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[290px] md:p-2 lg:w-[450px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-full max-w-[500px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-2 py-2 text-[#e4ded7] backdrop-blur-md sm:max-w-[290px] md:max-w-[450px] lg:max-w-[600px]">
+
       <Link
         href="https://www.canva.com/design/DAGPhPxtVhg/8qzCjNSaWdeLK84mwobVhQ/edit?utm_content=DAGPhPxtVhg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         target="_blank"
@@ -61,6 +62,16 @@ const NavBar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           PROJECTS
+        </h4>
+      </Link>
+      <Link
+        href="#blog"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Blog Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          CERTIFICATIONS
         </h4>
       </Link>
 
