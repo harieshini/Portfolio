@@ -14,7 +14,7 @@ export const devProjects = [
     id: 0,
     name: "PORTFOLIO",
     description:
-      "This portfolio website is built dynamically with Next.js,featuring to highlight my technical expertise including projects , skills and certifications by creating a visually interactive website.",
+      "This portfolio website is built dynamically with Next.js,featuring to highlight my technical expertise including projects , skills providing a visually interactive website.",
     technologies: ["TypeScript", "Tailwind CSS", "Next.Js"],
     github: "https://github.com/harieshini/Portfolio",
     
@@ -23,21 +23,21 @@ export const devProjects = [
   },
   {
     id: 1,
-    name: "Interlock",
+    name: "SEAMSTYLERS",
     description:
-      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/interlock",
+      "This is an e-tailoring website to serve as a platform for customers to fully customise their own clothes and choose tailors manually. ",
+    technologies: ["MongoDB", "Express", "React","Node"],
+    github: "https://github.com/harieshini/SeamStylers",
     
     image: require(".//../../public/projects/interlock.png"),
     available: true,
   },
   {
     id: 2,
-    name: "Synthetix",
+    name: "E-WASTE",
     description:
-      "Built specifically for an AI startup, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
-    technologies: ["React", "Next.js", "Prismic CMS"],
+      "Built the E-waste management system to manage the collection, recycling, and disposal of electronic waste. This system helps to reduce the environmental impact of electronic waste and promote sustainable practices. ",
+    technologies: ["SQL", "PHP", "JAVASCRIPT"],
     github: "https://github.com/victorcodess/synthetix",
     
     image: require(".//../../public/projects/synthetix-flip.png"),
@@ -45,11 +45,11 @@ export const devProjects = [
   },
   {
     id: 3,
-    name: "Propellent",
+    name: "BAR CODE",
     description:
-      "A website built for a software startup and small business, to showcase their services and mark their online presence.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/propellent",
+      "A website built for automatically recording daily attendance of students using their student ID barcode.",
+    technologies: ["MongoDB", "Express", "React","Node"],
+    github: "https://github.com/harieshini/barcode-attendence-system",
     
     image: require(".//../../public/projects/propellent-new.png"),
     available: true,
