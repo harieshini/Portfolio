@@ -50,7 +50,7 @@ const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
               href={url}
               target="_blank"
               className="rounded-full"
-              aria-label="Open Blog Post"
+              aria-label="view certificate"
             >
               <FontAwesomeIcon
                 icon={faArrowRight}

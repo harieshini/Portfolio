@@ -6,6 +6,8 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
+import { imageAnimation, bodyAnimation } from "../animations/animations";
+
 
 
 const Contact = () => {
@@ -39,7 +41,7 @@ const Contact = () => {
                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               }
             />
-            <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
+            {/* <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
               <Link
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
                 target="_blank"
@@ -53,7 +55,23 @@ const Contact = () => {
               </Link>
               
               
-            </div>
+            </div> */}
+            <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
+        <div>
+        <Link
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
+              target="_blank"
+              aria-label="mail me."
+>
+            <motion.button
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
+              variants={bodyAnimation}
+            >
+              MAIL ME
+            </motion.button>
+          </Link>
+        </div>
+        </div>
           </div>
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
