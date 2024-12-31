@@ -43,7 +43,7 @@ export const blogDetails = [
   },
   {
     title:
-      "CS50 PYTHON PROGRAMMING - HARVARD UNI",
+      "CS50 PYTHON PROGRAMMING - HARVARD UNIVERSITY",
     image:
       "/cert/py harvard.png",
     date: "18/07/2024",
