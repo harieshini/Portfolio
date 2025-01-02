@@ -1,7 +1,10 @@
 import ProjectCard from "./ProjectCard";
 import { devProjects, designProjects, ProjectProps } from "./projectDetails";
 import { useState } from "react";
-
+import AnimatedWords2 from "../animations/AnimatedWords2";
+import { monaSans } from "../fonts/monaSans";
+import AnimatedBody from "../animations/AnimatedBody";
+import AnimatedTitle from "../animations/AnimatedTitle";
 const ProjectGrid = () => {
   // const [filter, setFilter] = useState(true);
 
@@ -27,21 +30,22 @@ const ProjectGrid = () => {
       </div> */}
 
       {/* {filter ? ( */}
-        <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
-          {devProjects.map((project: ProjectProps) => (
-            <ProjectCard
-              id={project.id}
-              key={project.id}
-              name={project.name}
-              description={project.description}
-              technologies={project.technologies}
-              github={project.github}
-              // demo={project.demo}
-              image={project.image}
-              available={project.available}
-            />
-          ))}
-        </div>
+      <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
+
+  {devProjects.map((project: ProjectProps) => (
+    <ProjectCard
+      id={project.id}
+      key={project.id}
+      name={project.name}
+      description={project.description}
+      technologies={project.technologies}
+      github={project.github}
+      image={project.image}
+      available={project.available}
+    />
+  ))}
+</div>
+
       {/* ) : (
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-6 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
           {designProjects.map((project: ProjectProps) => (

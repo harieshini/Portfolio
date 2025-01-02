@@ -7,7 +7,7 @@ const tl = gsap.timeline();
 // Preloader Animation
 export const preLoaderAnim = () => {
   tl.to(".texts-container", {
-    duration: 0,
+    duration: 0.4,
     opacity: 1,
     ease: "Power3.easeOut",
   })
