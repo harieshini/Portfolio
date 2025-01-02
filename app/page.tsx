@@ -43,7 +43,6 @@ export default function Home() {
         <Hero />
         <About />
         <Work />
-        
         <Blog />
         <Contact />
         <Footer />
@@ -52,3 +51,7 @@ export default function Home() {
     </>
   );
 }
+
+
+///love yoouuuuuuuuu
+////iloveediiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii

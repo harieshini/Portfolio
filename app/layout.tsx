@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "HARSHINI SHANKAR - PORTFOLIO",
+  title: "HARSHINI",
   description:
     "I am a pliable Full Stack Developer , on a consistent pursuit of learning.",
   generator: "Next.js",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "HARSHINI SHANKAR - PORTFOLIO",
+    title: "HARSHINI",
     description:
       "I am a pliable Full Stack Developer , on a consistent pursuit of learning.",
     url: "https://www.victorwilliams.me/",
