@@ -54,17 +54,17 @@ export const devProjects = [
     image: require(".//../../public/projects/propellent-new.png"),
     available: true,
   },
-  {
-    id: 4,
-    name: "SERVYOU",
-    description:
-      "This website provides a platform for employees in an organizaton to cater their food services withing their cafeteria to avoid congesion at peak hours.",
-    technologies: ["PHP", "JAVASCRIPT", "HTML", "CSS"],
-    github: "https://github.com/victorcodess/flixify",
+  // {
+  //   id: 4,
+  //   name: "SERVYOU",
+  //   description:
+  //     "This website provides a platform for employees in an organizaton to cater their food services withing their cafeteria to avoid congesion at peak hours.",
+  //   technologies: ["PHP", "JAVASCRIPT", "HTML", "CSS"],
+  //   github: "https://github.com/victorcodess/flixify",
     
-    image: require(".//../../public/projects/flixify.png"),
-    available: true,
-  },
+  //   image: require(".//../../public/projects/flixify.png"),
+  //   available: true,
+  // },
  
 ];
 
