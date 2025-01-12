@@ -14,7 +14,7 @@ export const devProjects = [
     id: 0,
     name: "PORTFOLIO",
     description:
-      "This portfolio website is built dynamically with Next.js,featuring to highlight my technical expertise including projects , skills providing a visually interactive website.",
+      "This portfolio website is built dynamically with Next.js, highlighting my technical expertise and providing a visually interactive website.",
     technologies: ["TypeScript", "Tailwind CSS", "Next.Js"],
     github: "https://github.com/harieshini/Portfolio",
     
@@ -29,18 +29,18 @@ export const devProjects = [
     technologies: ["MongoDB", "Express", "React","Node"],
     github: "https://github.com/harieshini/SeamStylers",
     
-    image: require(".//../../public/projects/seam.png"),
+    image: require(".//../../public/projects/s.png"),
     available: true,
   },
   {
     id: 2,
     name: "E-WASTE",
     description:
-      "Built the E-waste management system to manage the collection, recycling, and disposal of electronic waste. This system helps to reduce the environmental impact of electronic waste and promote sustainable practices. ",
+      "This system manages the collection, recycling, and disposal of electronic wastes,reducing the environmental impacts by them.",
     technologies: ["SQL", "PHP", "JAVASCRIPT"],
     github: "https://github.com/harieshini/E-Waste",
     
-    image: require(".//../../public/projects/synthetix-flip.png"),
+    image: require(".//../../public/projects/e.png"),
     available: true,
   },
   {
@@ -51,7 +51,7 @@ export const devProjects = [
     technologies: ["Python"],
     github: "https://github.com/harieshini/Py-games",
     
-    image: require(".//../../public/projects/propellent-new.png"),
+    image: require(".//../../public/projects/g.png"),
     available: true,
   },
   // {
