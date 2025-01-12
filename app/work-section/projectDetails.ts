@@ -29,7 +29,7 @@ export const devProjects = [
     technologies: ["MongoDB", "Express", "React","Node"],
     github: "https://github.com/harieshini/SeamStylers",
     
-    image: require(".//../../public/projects/interlock.png"),
+    image: require(".//../../public/projects/seam.png"),
     available: true,
   },
   {
@@ -38,7 +38,7 @@ export const devProjects = [
     description:
       "Built the E-waste management system to manage the collection, recycling, and disposal of electronic waste. This system helps to reduce the environmental impact of electronic waste and promote sustainable practices. ",
     technologies: ["SQL", "PHP", "JAVASCRIPT"],
-    github: "https://github.com/victorcodess/synthetix",
+    github: "https://github.com/harieshini/E-Waste",
     
     image: require(".//../../public/projects/synthetix-flip.png"),
     available: true,

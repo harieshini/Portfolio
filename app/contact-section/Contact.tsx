@@ -41,21 +41,9 @@ const Contact = () => {
                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               }
             />
-            {/* <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
-              <Link
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
-                target="_blank"
-                aria-label="send an email"
-                className="bor der mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[170px] md:mt-3 lg:mt-4"
-              >
-                <AnimatedBody
-                  text={"Mail me!"}
-                  className={"bor der w-[190px] pr-[40px] md:w-[170px] md:pr-0"}
-                />
-              </Link>
+            {
               
-              
-            </div> */}
+            }
             <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
         <div>
         <Link
