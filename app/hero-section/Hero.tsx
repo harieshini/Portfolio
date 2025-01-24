@@ -9,7 +9,7 @@ import profile from "../../public/profile.jpeg";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
+      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover bg-center py-0 sm:h-[90vh] md:h-[100vh] 3xl:h-[85vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -18,13 +18,13 @@ const Hero = () => {
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
-        <Link
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
-              target="_blank"
-              aria-label="mail me."
->
+          <Link
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=imharshini363@gmail.com&su=We'd%20like%20to%20collaborate%20with%20you!&body=Hello%2C%20We%20think%20we%20need%20your%20ideas%20to%20work%20on%20this%20particular%20product.%20Reach%20out%20as%20soon%20as%20you%20can!"
+            target="_blank"
+            aria-label="mail me."
+          >
             <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               MAIL ME
@@ -39,7 +39,7 @@ const Hero = () => {
             aria-label="View GitHub Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="inline text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
               GH
@@ -51,14 +51,12 @@ const Hero = () => {
             aria-label="View LinkedIn Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="inline text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
               LN
             </motion.p>
           </Link>
-          
-          
         </div>
       </div>
 
@@ -80,7 +78,7 @@ const Hero = () => {
               alt="Profile Image "
               data-blobity-tooltip="Harsh"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className="w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>
@@ -92,7 +90,7 @@ const Hero = () => {
       md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
         <motion.div
-          className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
+          className="max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
@@ -101,12 +99,11 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
+          className="hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-          We learn by doing.
-          — Aristotle
+            We learn by doing. — Aristotle
           </p>
         </motion.div>
       </div>
