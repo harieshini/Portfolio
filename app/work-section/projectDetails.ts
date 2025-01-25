@@ -18,7 +18,7 @@ export const devProjects = [
     technologies: ["TypeScript", "Tailwind CSS", "Next.Js"],
     github: "https://github.com/harieshini/Portfolio",
     
-    image: require(".//../../public/projects/odunsi.png"),
+    image: require(".//../../public/projects/p.png"),
     available: true,
   },
   {

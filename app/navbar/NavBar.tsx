@@ -5,9 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    // first prevent the default behavior
     e.preventDefault();
+    // get the href and remove everything before the hash (#)
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
       behavior: "smooth",
@@ -15,60 +18,72 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="hidden sm:fixed sm:bottom-5 sm:left-0 sm:right-0 sm:mx-auto sm:flex sm:w-full sm:max-w-[600px] sm:items-center sm:justify-center sm:gap-1 sm:rounded-lg sm:bg-[#460b67] sm:px-2 sm:py-2 sm:text-[#e4ded7] sm:backdrop-blur-md lg:max-w-[800px] lg:px-6">
-      {/* Resume Icon */}
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-full max-w-[500px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-2 py-2 text-[#e4ded7] backdrop-blur-md sm:max-w-[290px] md:max-w-[450px] lg:max-w-[600px]">
+
       <Link
         href="https://www.canva.com/design/DAGPhPxtVhg/8qzCjNSaWdeLK84mwobVhQ/edit?utm_content=DAGPhPxtVhg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         target="_blank"
         className="flex"
         aria-label="Open my resume"
+        data-blobity-tooltip="View Resume"
+        data-blobity-magnetic="false"
       >
         <FontAwesomeIcon
           icon={faFilePdf}
-          className="text-[20px] sm:text-[24px] lg:text-[28px]"
+          className="py-2 px-2 text-[16px] sm:px-4 md:py-1"
         />
       </Link>
 
-      {/* Navigation Links */}
       <Link
         href="#home"
-        className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4"
+        data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Home Section"
       >
-        HOME
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          HOME
+        </h4>
       </Link>
       <Link
         href="#about"
-        className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4"
+        data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to About Section"
       >
-        ABOUT
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+            ABOUT
+        </h4>
       </Link>
       <Link
         href="#work"
-        className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4"
+        data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Work Section"
       >
-        PROJECTS
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          PROJECTS
+        </h4>
       </Link>
       <Link
         href="#blog"
-        className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4"
+        data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Blog Section"
       >
-        CERTIFICATIONS
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          CERTIFICATIONS
+        </h4>
       </Link>
+
       <Link
         href="#contact"
-        className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4"
+        data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Contact Section"
       >
-        CONTACT
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          CONTACT
+        </h4>
       </Link>
     </nav>
   );

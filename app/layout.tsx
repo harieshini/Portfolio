@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     title: "HARSHINI",
     description:
       "I am a pliable Full Stack Developer , on a consistent pursuit of learning.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "https://www.harshinishankar.vercel.app",
+    siteName: "www.harshinishankar.vercel.app",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://www.harshinishankar.vercel.app",
         width: 1200,
         height: 630,
         alt: "HARSHINI SHANKAR - FULLSTACK DEVELOPER",

@@ -35,9 +35,11 @@ export default function Home() {
     <>
       <PreLoader />
 
-      <NavBar />
+      {/* Add responsive utility classes to hide the NavBar on mobile */}
+      <div className="hidden md:block">
+        <NavBar />
+      </div>
 
-      {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
         <About />
@@ -46,11 +48,6 @@ export default function Home() {
         <Contact />
         <Footer />
       </main>
-      {/* </ScrollerMotion> */}
     </>
   );
 }
-
-
-///love yoouuuuuuuuu
-////iloveediiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii

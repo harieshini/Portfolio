@@ -1552,6 +1552,10 @@ body {
     margin-top: 10rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:h-\[100vh\] {
     height: 100vh;
   }
